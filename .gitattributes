@@ -6,6 +6,10 @@
 # This template is maintained from the gitattributes/gitattributes repository
 # and distributed under MIT License.
 
+# Exclude Unity template layout files from GitHub language detection
+*.wlt                   linguist-detectable=false
+Assets/TutorialInfo/**  linguist-vendored
+
 # Define macros (only works in top-level gitattributes files)
 [attr]lfs               filter=lfs diff=lfs merge=lfs -text
 [attr]unity-json        eol=lf linguist-language=json
