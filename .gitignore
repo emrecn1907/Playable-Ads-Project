@@ -105,3 +105,13 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# --- Project-specific ignores ---
+# Sprites excluded from the repo by request
+/[Aa]ssets/Sprites/
+/[Aa]ssets/Sprites.meta
+
+# Local tooling / editor config (not part of the project)
+.claude/
+.idea/
+.mcp.json
